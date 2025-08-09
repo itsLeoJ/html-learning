@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced text features</title>
+</head>
+<body>
+
+    <h2>Blockquotes</h2>
+    
+    <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/blockquote">
+        <p>
+            The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or
+            <em>HTML Block Quotation Element</em>) indicates that the enclosed text is
+            an extended quotation.
+        </p>
+    </blockquote>
+
+    <h2>Inline quotations</h2>
+    <p>
+        <q
+            cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/q">
+            intended for short quotations that don't require paragraph breaks.
+        </q>       
+    </p>
+
+    <h2>Citations</h2>
+    <p>According to the <cite>MDN blockquote page</cite>...</p>
+
+    <h2>Abbreviations and Acronyms</h2>
+
+    <p>We use <abbr>HTML</abbr>, Hypertext Markup Language, to structure our we  documents.</p>
+
+    <p>The new user interface design <abbr title="Looks good to me">LGTM</abbr>!</p>
+
+    <h2>Marking up contact details</h2>
+    
+    <address>
+        <p>Chris Millis <br>Manchester <br> UK</p>
+    </address>
+
+    <h2>Superscript and subscript</h2>
+    <p>My birthday is on the 25 <sup>th</sup> of May.</p>
+    <p>Caffeine's chemical formula is C <sub>8</sub>H <sub>10</sub>N <sub>4</sub>O <sub>2</sub></p>
+    <p>If x <sup>2</sup> is 9, x must equal 3  or -3</p>
+    
+    <h2>Representing Computer Code</h2>
+    <pre>
+        <code>const para = document.querySelector('p');</code>
+    </pre>
+    <p>In the exmpale, <var>para</var> represents an element.</p>
+    <p>Select text with <kbd>Ctrl</kbd> + <kbd>A</kbd>.</p>
+
+    <h2>Times and Dates</h2>
+    <time datetime="2016-01-20">20 January 2016</time>
+    <time datetime="19:30">7.30pm</time>
+</body>
+</html>
