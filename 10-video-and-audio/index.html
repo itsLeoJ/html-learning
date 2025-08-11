@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML video and audio</title>
+</head>
+<body>
+
+   <h2>The video element</h2> 
+   <video src="videos/rabbit320.webm" controls></video>
+
+   <h2>Media file support in browsers</h2>
+   <video controls>
+        <source src="videos/rabbit320.webm" type="video/webm">
+   </video>
+
+   <h2>Other video features</h2>
+   <video 
+        width="400"     
+        height="400"
+        loop
+        controls
+        muted
+        preload="auto"
+        poster="images/poster.png"
+    >
+        <source src="videos/rabbit320.webm">
+    </video>
+
+    <h2>The audio element</h2>
+    <audio src="videos/viper.mp3" controls></audio>
+
+    <h2>Displaying video text tracks</h2>
+    <video controls>
+        <source src="videos/sintel-short.webm">
+        <track 
+            kind="subtitles" 
+            src="subtitles/sintel-en.vtt"
+            srclang="en"
+            label="English"
+        ></track>
+        <track 
+            kind="subtitles" 
+            src="subtitles/sintel-es.vtt"
+            srclang="es"
+            label="Spanish"
+        ></track>
+    </video>
+
+</body>
+</html>
